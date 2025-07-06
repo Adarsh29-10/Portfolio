@@ -14,8 +14,8 @@ const Header = () => {
   ];
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com/adarshraghuvanshi', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com/in/adarshraghuvanshi', label: 'LinkedIn' },
+    { icon: Github, href: 'https://github.com/Adarsh29-10', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/adarsh-raghuvanshi-0488532b5', label: 'LinkedIn' },
     { icon: Mail, href: 'mailto:adarsh.raghuvanshi29@gmail.com', label: 'Email' }
   ];
 
