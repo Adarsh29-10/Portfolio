@@ -51,21 +51,15 @@ const Contact = () => {
     {
       icon: Github,
       name: "GitHub",
-      href: "https://github.com/adarshraghuvanshi",
+      href: "https://github.com/Adarsh29-10",
       color: "hover:text-gray-900"
     },
     {
       icon: Linkedin,
       name: "LinkedIn",
-      href: "https://linkedin.com/in/adarshraghuvanshi",
+      href: "https://www.linkedin.com/in/adarsh-raghuvanshi-0488532b5/",
       color: "hover:text-blue-600"
     },
-    {
-      icon: Mail,
-      name: "Email",
-      href: "mailto:adarsh.raghuvanshi29@gmail.com",
-      color: "hover:text-red-600"
-    }
   ];
 
   return (

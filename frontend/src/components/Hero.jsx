@@ -39,7 +39,7 @@ const Hero = () => {
     );
 
     // Create the cycling animation
-    const tl = gsap.timeline({ repeat: -1, delay: 2 });
+    const tl = gsap.timeline({ repeat: -1, delay: 3 });
 
     texts.forEach((text, index) => {
       if (index === 0) return; // Skip first iteration since it's already displayed

@@ -15,12 +15,12 @@ const Projects = () => {
         "Reduced rental coordination time by 35%"
       ],
       image: "/api/placeholder/400/250",
-      github: "#",
-      demo: "#",
+      github: "https://github.com/Adarsh29-10/EasyRenting",
+      demo: "https://easyrenting.tech",
       color: "from-blue-500 to-purple-600"
     },
     {
-      title: "StudyVerse",
+      title: "StudySphere",
       subtitle: "Decentralized Study Group Finder",
       description: "A full-stack platform connecting students to find and join study groups based on their interests and location with real-time updates.",
       technologies: ["MongoDB", "Express.js", "React.js", "Node.js"],
@@ -32,8 +32,8 @@ const Projects = () => {
         "Responsive UI for mobile and desktop"
       ],
       image: "/api/placeholder/400/250",
-      github: "#",
-      demo: "#",
+      github: "https://github.com/Adarsh29-10/StudySphere",
+      // demo: "#",
       color: "from-green-500 to-blue-500"
     },
     {
@@ -49,7 +49,7 @@ const Projects = () => {
         "Lightweight and fast performance"
       ],
       image: "/api/placeholder/400/250",
-      github: "#",
+      github: "https://github.com/Adarsh29-10/VillagePortal",
       demo: "#",
       color: "from-orange-500 to-red-500"
     }
@@ -129,6 +129,8 @@ const Projects = () => {
                   <div className="flex space-x-4">
                     <a
                       href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="flex items-center space-x-2 px-4 py-2 border-2 border-gray-900 text-gray-900 rounded-lg hover:bg-gray-900 hover:text-white transition-colors duration-200"
                     >
                       <Github size={18} />
@@ -136,10 +138,12 @@ const Projects = () => {
                     </a>
                     <a
                       href={project.demo}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="flex items-center space-x-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200"
                     >
                       <ExternalLink size={18} />
-                      <span>Live Demo</span>
+                      {/* <span>Live Demo</span> */}
                     </a>
                   </div>
                 </div>
