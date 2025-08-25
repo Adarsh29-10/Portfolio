@@ -22,7 +22,7 @@ const Contact = () => {
     // Handle form submission here
     console.log('Form submitted:', formData);
     // You can integrate with emailjs or your preferred email service
-    alert('Thank you for your message! I\'ll get back to you soon.');
+    alert('Thank you for your message! This Get In Touch section may not work sometimes, kindly try to connect/message using mail.');
     setFormData({ name: '', email: '', subject: '', message: '' });
   };
 
