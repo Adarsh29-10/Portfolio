@@ -21,15 +21,15 @@ const VideoEditingPortfolio = () => {
     },
     {
       id: 2,
-      title: "Wedding Cinematics",
-      category: "wedding",
+      title: "Ganesh Visarjan-2023",
+      category: "cinematics",
       thumbnail: "/Thumbnail/ThumbnailFilmFxAdarsh.jpg",
-      videoUrl: "/Videos/WeddingEntry1.mp4",
-      description: "I only edited this video with a team and the shots was taken by Team Jay Photography and Sharma Photography, Ghatabillod",
-      duration: "0:58",
-      date: "2024-11",
-      tools: ["Adobe Premiere Pro", "Adobe After Effects"],
-      client: "Jay Photography"
+      videoUrl: "https://www.instagram.com/reel/Cx04Bb2rKrH/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+      description: "A cinematic video for Ganesh Visarjan-2023",
+      duration: "2:53",
+      date: "2023-10",
+      tools: ["Adobe Premiere Pro"],
+      client: "Maa Annpurna Yuva Group, Ghatabillod"
     },
     {
       id: 3,
@@ -114,7 +114,7 @@ const VideoEditingPortfolio = () => {
         duration: "1:00",
         date: "2023-03",
         tools: ["Capcut", "Alight Motion"],
-        client: "Maa annpurna yuva group, Ghatabillod"
+        client: "Maa Annpurna Yuva Group, Ghatabillod"
     },
     
   ];
